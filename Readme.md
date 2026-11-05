@@ -97,4 +97,3 @@ gcc -std=c99 -Wall -I host_check/stubs -I Application/ConfigLayer -I Application
 .\host_check\check_target.exe
 ```
 
-检查内容：随机位置的范围和最小差值、梯形规划时长、找零与回中、四种靶型的时序、STOP、离线故障与恢复。电机用一阶模型代替，**结果不代表实物性能**。生成的 exe 是临时文件，用完后删除。
